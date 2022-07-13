@@ -6,5 +6,5 @@
 #PBS -N Apple
 
 cd ${PBS_O_WORKDIR}
-
-python3 test.py
+module load python3.7
+python test.py
